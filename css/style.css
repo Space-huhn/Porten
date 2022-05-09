@@ -157,6 +157,7 @@ h6 {
 
 .wrapper {
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,6 +475,7 @@ body a {
 
 .main__bg {
   height: 100vh;
+  min-height: -webkit-fill-available;
   z-index: -1;
 }
 
