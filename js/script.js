@@ -10,7 +10,11 @@ function burgerMenu() {
 }
 burgerMenu();
 
+let mainBackgroung = document.querySelector('.main__bg');
 
+let deviceHeith = window.innerHeight;
+mainBackgroung.style.height = deviceHeith + "px";
+console.log(deviceHeith);
 
 // let hederMenu = document.getElementsByClassName('header-nav');
 // console.log(hederMenu);
