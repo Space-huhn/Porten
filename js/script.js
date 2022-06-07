@@ -12,7 +12,7 @@ burgerMenu();
 
 let mainBackgroung = document.querySelector('.main__bg');
 let mainElement = document.documentElement
-let deviceHeith = mainElement.innerHeight;
+let deviceHeith = mainElement.clientHeight;
 
 mainBackgroung.style.height = deviceHeith + "px";
 console.log(deviceHeith);
